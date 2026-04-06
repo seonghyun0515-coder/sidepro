@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  /* 프로젝트 전역에서 재사용할 색상 변수입니다. */
+  --background: #f8f9fa;
+  --foreground: #191c1d;
+  --surface: #ffffff;
+  --surface-soft: #f3f4f5;
+  --surface-muted: #e7e8e9;
+  --primary: #0050cb;
+  --primary-strong: #0066ff;
+  --primary-soft: #dae1ff;
+  --text-muted: #5b6475;
+  --outline: #d8dde6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  /* layout.tsx 에서 넣은 폰트 변수를 실제 body 폰트로 연결합니다. */
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-headline {
+  /* 제목용 폰트는 본문과 구분해서 사용합니다. */
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
