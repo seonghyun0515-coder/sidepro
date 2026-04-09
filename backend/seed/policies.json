@@ -1,0 +1,142 @@
+[
+  {
+    "id": "policy-001",
+    "title": "청년 월세 지원",
+    "category": "HOUSING",
+    "provider": "충청남도",
+    "summary": "충남 거주 청년에게 월세 일부를 지원해 주거비 부담을 낮추는 정책입니다.",
+    "region_code": "CHUNGNAM_CHEONAN",
+    "apply_start_date": "2026-04-01",
+    "apply_end_date": "2026-04-20",
+    "application_method": "온라인 신청",
+    "documents": ["주민등록등본", "임대차계약서", "소득 증빙서류"],
+    "ai_summary": "충남 천안에 거주하는 청년이라면 월세 일부를 지원받을 수 있는 정책입니다. 소득 요건과 임차 여부를 함께 확인해야 합니다.",
+    "accent": "blue",
+    "sample_match_score": 92,
+    "sample_recommendation_reasons": ["만 19~34세 조건 일치", "충남 천안 거주 조건 일치", "임차 가구 조건 충족"],
+    "meta_items": [
+      { "label": "지역", "value": "충남 천안", "icon": "location" },
+      { "label": "지원금액", "value": "월 최대 20만원", "icon": "payments" }
+    ],
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 34,
+      "employment_status": "UNEMPLOYED",
+      "student_status": "NON_STUDENT",
+      "housing_status": "RENT",
+      "income_brackets": ["LOWEST", "LOW", "MIDDLE"]
+    }
+  },
+  {
+    "id": "policy-002",
+    "title": "청년 구직활동 지원금",
+    "category": "EMPLOYMENT",
+    "provider": "고용노동부",
+    "summary": "구직 중인 청년에게 활동비와 취업 프로그램을 연계 지원합니다.",
+    "region_code": "NATIONAL",
+    "apply_start_date": "2026-04-05",
+    "apply_end_date": "2026-04-25",
+    "application_method": "온라인 신청",
+    "documents": ["신분증", "구직활동계획서", "통장사본"],
+    "ai_summary": "전국 청년 구직자를 대상으로 하는 지원금입니다. 취업 준비 중이라면 우선순위가 높은 정책입니다.",
+    "accent": "amber",
+    "sample_match_score": 89,
+    "sample_recommendation_reasons": ["전국 공통 정책", "구직 상태 대상 포함", "소득 조건 부합"],
+    "meta_items": [
+      { "label": "지역", "value": "전국", "icon": "location" },
+      { "label": "지원금액", "value": "월 최대 50만원", "icon": "payments" }
+    ],
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 34,
+      "employment_status": "UNEMPLOYED",
+      "student_status": "NON_STUDENT",
+      "housing_status": "RENT",
+      "income_brackets": ["LOWEST", "LOW"]
+    }
+  },
+  {
+    "id": "policy-003",
+    "title": "청년 자격증 응시료 지원",
+    "category": "EDUCATION",
+    "provider": "천안시",
+    "summary": "취업 준비 청년의 자격증 응시료를 일부 지원하는 정책입니다.",
+    "region_code": "CHUNGNAM_CHEONAN",
+    "apply_start_date": "2026-04-02",
+    "apply_end_date": "2026-04-30",
+    "application_method": "방문 또는 온라인 신청",
+    "documents": ["응시 확인서", "결제 영수증", "주민등록초본"],
+    "ai_summary": "천안 거주 청년이 취업 준비를 위해 시험을 볼 때 비용 부담을 줄여주는 정책입니다.",
+    "accent": "blue",
+    "sample_match_score": 84,
+    "sample_recommendation_reasons": ["천안 거주 조건 일치", "취업 준비 청년 대상", "마감 전 신청 가능"],
+    "meta_items": [
+      { "label": "지역", "value": "충남 천안", "icon": "location" },
+      { "label": "지원금액", "value": "연 최대 10만원", "icon": "payments" }
+    ],
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 34,
+      "employment_status": "UNEMPLOYED",
+      "student_status": "STUDENT",
+      "housing_status": "RENT",
+      "income_brackets": ["LOWEST", "LOW", "MIDDLE", "HIGH"]
+    }
+  },
+  {
+    "id": "policy-004",
+    "title": "청년 교통비 지원",
+    "category": "LIVING",
+    "provider": "충청남도",
+    "summary": "출퇴근 또는 구직 활동이 잦은 청년에게 교통비를 지원합니다.",
+    "region_code": "CHUNGNAM_CHEONAN",
+    "apply_start_date": "2026-04-07",
+    "apply_end_date": "2026-04-17",
+    "application_method": "온라인 신청",
+    "documents": ["신분증", "교통카드 이용내역", "재직 또는 구직 증빙"],
+    "ai_summary": "천안 지역 청년의 이동 비용을 줄이기 위한 생활 지원 정책입니다. 마감이 가까운 편이라 빠르게 확인하는 것이 좋습니다.",
+    "accent": "amber",
+    "sample_match_score": 81,
+    "sample_recommendation_reasons": ["지역 조건 일치", "마감 임박", "생활비 절감형 정책"],
+    "meta_items": [
+      { "label": "지역", "value": "충남 천안", "icon": "location" },
+      { "label": "지원금액", "value": "월 최대 5만원", "icon": "payments" }
+    ],
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 34,
+      "employment_status": "PART_TIME",
+      "student_status": "NON_STUDENT",
+      "housing_status": "RENT",
+      "income_brackets": ["LOWEST", "LOW", "MIDDLE"]
+    }
+  },
+  {
+    "id": "policy-005",
+    "title": "청년 전세보증금 이자 지원",
+    "category": "HOUSING",
+    "provider": "국토교통부",
+    "summary": "청년 전세자금 대출 이자의 일부를 지원해 초기 주거 부담을 줄입니다.",
+    "region_code": "NATIONAL",
+    "apply_start_date": "2026-04-01",
+    "apply_end_date": "2026-05-10",
+    "application_method": "은행 연계 신청",
+    "documents": ["대출 확인서", "임대차계약서", "소득 증빙서류"],
+    "ai_summary": "전국 청년을 대상으로 하는 전세 관련 지원입니다. 자가가 아닌 임차 청년에게 특히 유리합니다.",
+    "accent": "blue",
+    "sample_match_score": 86,
+    "sample_recommendation_reasons": ["전국 공통 정책", "임차 조건 충족", "주거 지원 우선 정책"],
+    "meta_items": [
+      { "label": "지역", "value": "전국", "icon": "location" },
+      { "label": "지원금액", "value": "이자 연 최대 2%", "icon": "payments" }
+    ],
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 34,
+      "employment_status": "FULL_TIME",
+      "student_status": "NON_STUDENT",
+      "housing_status": "RENT",
+      "income_brackets": ["LOWEST", "LOW", "MIDDLE"]
+    }
+  }
+]
